@@ -1,0 +1,29 @@
+{
+  "models": [
+    {
+      "name": "example-7b:latest",
+      "model": "example-7b:latest",
+      "size": 5045231104,
+      "size_vram": 5045231104,
+      "digest": "0000000000000000000000000000000000000000000000000000000000000000",
+      "details": {
+        "family": "example",
+        "parameter_size": "7B",
+        "quantization_level": "Q4_K_M"
+      },
+      "expires_at": "2099-01-01T00:00:00Z"
+    },
+    {
+      "name": "example-code:latest",
+      "model": "example-code:latest",
+      "size": 9123456789,
+      "size_vram": 4561728394,
+      "details": {
+        "family": "example",
+        "parameter_size": "13B",
+        "quantization_level": "Q5_K_M"
+      },
+      "expires_at": "2099-01-01T00:00:00Z"
+    }
+  ]
+}

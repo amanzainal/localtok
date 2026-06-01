@@ -1,0 +1,38 @@
+{
+  "models": [
+    {
+      "name": "example-7b:latest",
+      "model": "example-7b:latest",
+      "modified_at": "2099-01-01T00:00:00Z",
+      "size": 5045231104,
+      "digest": "1111111111111111111111111111111111111111111111111111111111111111",
+      "details": {
+        "family": "example",
+        "parameter_size": "7B",
+        "quantization_level": "Q4_K_M"
+      }
+    },
+    {
+      "name": "example-code:latest",
+      "model": "example-code:latest",
+      "modified_at": "2099-01-01T00:00:00Z",
+      "size": 9123456789,
+      "details": {
+        "family": "example",
+        "parameter_size": "13B",
+        "quantization_level": "Q5_K_M"
+      }
+    },
+    {
+      "name": "example-tiny:latest",
+      "model": "example-tiny:latest",
+      "modified_at": "2099-01-01T00:00:00Z",
+      "size": 638123456,
+      "details": {
+        "family": "example",
+        "parameter_size": "1B",
+        "quantization_level": "Q8_0"
+      }
+    }
+  ]
+}

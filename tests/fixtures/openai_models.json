@@ -1,0 +1,23 @@
+{
+  "object": "list",
+  "data": [
+    {
+      "id": "example/base-model-v1",
+      "object": "model",
+      "created": 4070908800,
+      "owned_by": "example-org"
+    },
+    {
+      "id": "example/instruct-model-v1",
+      "object": "model",
+      "created": 4070908800,
+      "owned_by": "example-org"
+    },
+    {
+      "id": "example/embed-model-v1",
+      "object": "model",
+      "created": 4070908800,
+      "owned_by": "example-org"
+    }
+  ]
+}
