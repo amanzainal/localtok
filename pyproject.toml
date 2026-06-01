@@ -4,7 +4,7 @@ version = "0.1.0"
 description = "htop for local LLM inference — a terminal dashboard for tokens/sec, VRAM and loaded models."
 readme = "README.md"
 license = { text = "MIT" }
-authors = [{ name = "The Authors" }]
+authors = [{ name = "Aman Zainal" }]
 requires-python = ">=3.10"
 dependencies = [
     "textual>=0.60",
