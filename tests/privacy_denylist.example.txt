@@ -1,0 +1,13 @@
+# Example privacy denylist.
+#
+# Copy this file to `privacy_denylist.local.txt` (which is gitignored) and add
+# one lowercase substring per line that must NEVER appear in committed files --
+# e.g. your machine hostnames, internal tool names, or usernames. The tokens
+# you add are loaded by tests/test_privacy.py at test time but are never
+# committed, so the repo itself stays clean of the very things you're guarding.
+#
+# Lines starting with '#' and blank lines are ignored.
+
+example-internal-host
+example-secret-tool
+my-private-project-name

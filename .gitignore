@@ -15,3 +15,6 @@ build/
 
 # Backups
 *.bak
+
+# Private, machine-local privacy denylist (never commit real secret tokens)
+tests/privacy_denylist.local.txt
